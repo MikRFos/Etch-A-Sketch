@@ -10,3 +10,10 @@ for(let i = 0; i < 16; i++){
     row.appendChild(square);
   }
 }
+
+let squareList = document.querySelectorAll('.grid');
+squareList.forEach(((item) => {
+  item.addEventListener('mouseover', (e) => {
+    e.target.classList.add('grid-hover');
+  });
+}))
