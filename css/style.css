@@ -1,0 +1,21 @@
+body{
+  background-color: black;
+  min-height: 100vh;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.grid-row{
+  display:flex;
+  flex: 1 1 auto;
+}
+
+
+.grid{
+  border: 1px dashed white;
+  flex: 1 1 50px;
+}
