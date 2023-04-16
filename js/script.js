@@ -26,6 +26,10 @@ function createGrid(size){
   squareList.forEach(((item) => {
     item.addEventListener('mouseover', (e) => {
       e.target.classList.add('grid-hover');
+      //let r = Math.random() * 255;
+      //let g = Math.random() * 255;
+      //let b = Math.random() * 255;
+      //e.target.style.backgroundColor = `rgb(${r},${g},${b})`;
     });
   }))
 }
